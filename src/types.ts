@@ -12,3 +12,15 @@ export type TAccount = {
     balance: number,
     type: ACCOUNT_TYPE
 }
+
+export enum GAME_TYPE {
+    AAA = "Triple A",
+    INDIE = "Indie"
+}
+
+export type TGame = {
+    id: string,
+    name: string,
+    price: number
+    type: GAME_TYPE
+}
